@@ -7,7 +7,7 @@
 @section('content')
     <div class="container">
         @include('header')
-        <p class="fs-3">Disfruta de un blog lleno de interesante noticias, para que tengas la información más
+        <p style="font-size: 1.3em">Disfruta de un blog lleno de interesante noticias, para que tengas la información más
             confiable a un solo click</p>
         @include('grid_news')
     </div>

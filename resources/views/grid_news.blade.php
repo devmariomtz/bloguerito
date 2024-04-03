@@ -10,8 +10,8 @@
                 </div>
                 <a class="p-4 gap-2 text-decoration-none"
                     href="{{ route('showuser', ['author' => json_encode($new['author'])]) }}">
-                    <img src={{ $new['author']['picture']['thumbnail'] }} class="rounded-circle"
-                        style="width: auto; height: auto;" alt="Avatar" loading="lazy" />
+                    <img src={{ $new['author']['picture']['thumbnail'] }} class="rounded-circle" width="auto"
+                        height="auto" alt="Avatar" loading="lazy" />
                     <span
                         class="m-1">{{ $new['author']['name']['first'] . ' ' . $new['author']['name']['last'] }}</span>
                 </a>
