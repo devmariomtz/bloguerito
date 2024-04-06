@@ -1,7 +1,7 @@
 @extends('layouts.layout_home')
 
 @section('title')
-    <title>HOME - ✒ EL BLOGUERITO</title>
+    <title>HOME - ✒ EL BLOGUERITO </title>
 @endsection
 
 @section('content')
